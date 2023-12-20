@@ -5,6 +5,13 @@ Apache Server and MySQL GUI Frontend written in Python and Tkinter. The aim of t
 
 ![image](https://github.com/DawarAlvi/LAMPtk/assets/46403138/9024a20f-6d1c-4240-95f7-26d4257e4ed8)
 
+## Installation
+LAMPtk uses tkinter library. Make sure its installed.
+```
+$ pip install tkinter
+```
+
+## Usage
 LAMPtk make call to [systemd](https://systemd.io/) to manage the Apache and MySQL services. It is recommended to run LAMPtk with root priveleges. 
 
 ```

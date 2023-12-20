@@ -10,6 +10,11 @@ LAMPtk uses tkinter library. Make sure its installed.
 ```
 $ pip install tkinter
 ```
+Clone the repo and move the lamptk.py script to a location that's in the $PATH global variable (assuming ~/.bin)
+```
+$ git clone https://github.com/DawarAlvi/LAMPtk.git
+$ cp LAMPtk/src/lamptk.py ~/.bin
+```
 
 ## Usage
 LAMPtk make call to [systemd](https://systemd.io/) to manage the Apache and MySQL services. It is recommended to run LAMPtk with root priveleges. 
